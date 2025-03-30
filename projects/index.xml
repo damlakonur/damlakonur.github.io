@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on </title>
+    <link>https://damlakonur.github.io/projects/</link>
+    <description>Recent content in Projects on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 25 Aug 2024 09:53:42 +0200</lastBuildDate>
+    <atom:link href="https://damlakonur.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generative Model of 3D Heads</title>
+      <link>https://damlakonur.github.io/projects/gen-3d-heads/</link>
+      <pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate>
+      <guid>https://damlakonur.github.io/projects/gen-3d-heads/</guid>
+      <description>&lt;p&gt;As part of the &lt;strong&gt;3D Scanning &amp;amp; Spatial Learning&lt;/strong&gt; practical course at TUM, I worked on a generative framework for reconstructing 3D human heads from sparse-view inputs. The model uses an &lt;strong&gt;auto-decoder&lt;/strong&gt; to learn a latent distribution over human heads, trained on the &lt;strong&gt;CAFCA dataset&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The learned prior is leveraged to reconstruct high-quality head geometry using only a few images as input. Key tools include &lt;strong&gt;Python&lt;/strong&gt;, &lt;strong&gt;PyTorch&lt;/strong&gt;, and &lt;strong&gt;3D Gaussian Splatting (3DGS)&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bundle Adjustment</title>
+      <link>https://damlakonur.github.io/projects/bundle-adjustment/</link>
+      <pubDate>Thu, 25 Jul 2024 09:53:42 +0200</pubDate>
+      <guid>https://damlakonur.github.io/projects/bundle-adjustment/</guid>
+      <description>&lt;p&gt;As part of the &lt;strong&gt;3D Scanning &amp;amp; Motion Capture&lt;/strong&gt; course at TUM, I implemented a &lt;strong&gt;Structure-from-Motion (SfM)&lt;/strong&gt; pipeline from scratch in &lt;strong&gt;C++&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This project focused on:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Camera pose estimation&lt;/strong&gt;, triangulation, and feature matching&lt;/li&gt;&#xA;&lt;li&gt;Building a &lt;strong&gt;bundle adjustment&lt;/strong&gt; module using &lt;strong&gt;Ceres Solver&lt;/strong&gt; and &lt;strong&gt;Eigen&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Creating a complete pipeline for sparse 3D reconstruction from unordered images&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The project strengthened my understanding of multi-view geometry and optimization in 3D vision, with practical experience in low-level system design and numerical libraries.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vision-Based Trajectory Control with MIT Racecar</title>
+      <link>https://damlakonur.github.io/projects/mit-racecar/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0100</pubDate>
+      <guid>https://damlakonur.github.io/projects/mit-racecar/</guid>
+      <description>&lt;p&gt;This project focused on implementing &lt;strong&gt;vision-based trajectory control&lt;/strong&gt; for the &lt;strong&gt;MIT Racecar platform&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Key contributions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Used a &lt;strong&gt;ZED stereo camera&lt;/strong&gt; to capture real-time road imagery, processed using &lt;strong&gt;Python&lt;/strong&gt; and the &lt;strong&gt;OpenCV&lt;/strong&gt; library.&lt;/li&gt;&#xA;&lt;li&gt;Computed the &lt;strong&gt;lateral error&lt;/strong&gt; of the vehicle relative to the lane center in the body frame using image processing techniques.&lt;/li&gt;&#xA;&lt;li&gt;Designed and implemented multiple controller structures for &lt;strong&gt;lateral and longitudinal control&lt;/strong&gt;, including:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Proportional (P) Controller&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Proportional-Derivative (PD) Controller&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Stanley Controller&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This work demonstrated an integrated approach to autonomous driving using &lt;strong&gt;computer vision&lt;/strong&gt; and &lt;strong&gt;feedback control&lt;/strong&gt;, all tested in real-time on a physical platform.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

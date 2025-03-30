@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experience on </title>
+    <link>https://damlakonur.github.io/experience/</link>
+    <description>Recent content in Experience on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0100</lastBuildDate>
+    <atom:link href="https://damlakonur.github.io/experience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interdiciplinary Project</title>
+      <link>https://damlakonur.github.io/experience/job-6/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0100</pubDate>
+      <guid>https://damlakonur.github.io/experience/job-6/</guid>
+      <description>&lt;h3 id=&#34;nlp-engineer&#34;&gt;NLP Engineer&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fast AI Movies&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Munich, Germany&lt;/em&gt;&lt;br&gt;&#xA;&lt;strong&gt;March 2024 – October 2024&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;At Fast AI Movies, I worked on enhancing AI-driven educational tools by fine-tuning large language models (LLMs) and improving pipeline efficiency.&lt;/p&gt;&#xA;&lt;p&gt;Key contributions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fine-tuned &lt;strong&gt;LLMs&lt;/strong&gt; for &lt;strong&gt;text generation&lt;/strong&gt; tasks tailored to educational content.&lt;/li&gt;&#xA;&lt;li&gt;Engineered advanced &lt;strong&gt;prompting strategies&lt;/strong&gt; and &lt;strong&gt;data collation pipelines&lt;/strong&gt; to boost model performance and reliability.&lt;/li&gt;&#xA;&lt;li&gt;Developed a modular &lt;strong&gt;Python framework&lt;/strong&gt; to streamline LLM workflows — from training and evaluation to deployment — accelerating experimentation and production readiness.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title> </title>
+      <link>https://damlakonur.github.io/experience/job-5/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0100</pubDate>
+      <guid>https://damlakonur.github.io/experience/job-5/</guid>
+      <description>&lt;h3 id=&#34;working-student&#34;&gt;Working Student&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Brainlab AG&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Munich, Germany&lt;/em&gt;&lt;br&gt;&#xA;&lt;strong&gt;November 2023 – February 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;As a working student at Brainlab AG, I supported the development of customer-facing analytics tools in the healthcare technology domain.&lt;/p&gt;&#xA;&lt;p&gt;Key contributions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Designed and developed interactive data analysis dashboards using &lt;strong&gt;Python Dash&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Performed &lt;strong&gt;exploratory data analysis&lt;/strong&gt; and implemented models using &lt;strong&gt;scikit-learn&lt;/strong&gt; to extract actionable insights from clinical data.&lt;/li&gt;&#xA;&lt;li&gt;Contributed to improving the usability and interpretability of visual analytics for medical professionals.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title> </title>
+      <link>https://damlakonur.github.io/experience/job-4/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0100</pubDate>
+      <guid>https://damlakonur.github.io/experience/job-4/</guid>
+      <description>&lt;h3 id=&#34;software-engineer&#34;&gt;Software Engineer&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tradeware Technology&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Istanbul, Turkey&lt;/em&gt;&lt;br&gt;&#xA;&lt;strong&gt;August 2022 – October 2023&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;At Tradeware Technology, I was part of a team developing high-performance trading systems for financial markets.&lt;/p&gt;&#xA;&lt;p&gt;Key responsibilities and contributions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Designed and developed &lt;strong&gt;high-frequency, multi-threaded trading platforms&lt;/strong&gt; using &lt;strong&gt;C++&lt;/strong&gt;, focusing on &lt;strong&gt;low-latency&lt;/strong&gt; and &lt;strong&gt;real-time performance&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Implemented and integrated market communication protocols such as &lt;strong&gt;FIX&lt;/strong&gt;, &lt;strong&gt;OUCH&lt;/strong&gt;, and &lt;strong&gt;ITCH&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Optimized systems for performance and reliability on &lt;strong&gt;Linux&lt;/strong&gt;, using &lt;strong&gt;bash scripting&lt;/strong&gt; for deployment and automation tasks.&lt;/li&gt;&#xA;&lt;li&gt;Worked on memory-efficient data structures and latency-critical code paths tailored for stock market environments.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Internship</title>
+      <link>https://damlakonur.github.io/experience/job-3/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0100</pubDate>
+      <guid>https://damlakonur.github.io/experience/job-3/</guid>
+      <description>&lt;h3 id=&#34;data-scientist&#34;&gt;Data Scientist&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Reengen&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Istanbul, Turkey&lt;/em&gt;&lt;br&gt;&#xA;&lt;strong&gt;May 2022 – July 2022&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;During my internship at Reengen, an energy analytics company, I worked on processing and analyzing large-scale electrical energy consumption data.&lt;/p&gt;&#xA;&lt;p&gt;Key contributions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Performed &lt;strong&gt;data preprocessing&lt;/strong&gt; and &lt;strong&gt;feature engineering&lt;/strong&gt; on smart meter time-series data.&lt;/li&gt;&#xA;&lt;li&gt;Applied statistical methods and &lt;strong&gt;machine learning models&lt;/strong&gt; for &lt;strong&gt;time series forecasting&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Contributed to internal tools for detecting anomalies and optimizing energy usage patterns.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Internship</title>
+      <link>https://damlakonur.github.io/experience/job-2/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0100</pubDate>
+      <guid>https://damlakonur.github.io/experience/job-2/</guid>
+      <description>&lt;h3 id=&#34;embedded-software-developer&#34;&gt;Embedded Software Developer&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;TÜBİTAK SAGE&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Ankara, Turkey&lt;/em&gt;&lt;br&gt;&#xA;&lt;strong&gt;July 2021 – September 2021&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;As an embedded software intern at TÜBİTAK SAGE, I contributed to the development of internal tools and communication modules for defense systems.&lt;/p&gt;&#xA;&lt;p&gt;Key contributions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed desktop tools using &lt;strong&gt;C++&lt;/strong&gt; and the &lt;strong&gt;Qt&lt;/strong&gt; framework.&lt;/li&gt;&#xA;&lt;li&gt;Implemented and tested &lt;strong&gt;custom file transfer protocols&lt;/strong&gt; between systems.&lt;/li&gt;&#xA;&lt;li&gt;Gained hands-on experience in low-level software development and communication between embedded systems.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Internship</title>
+      <link>https://damlakonur.github.io/experience/job-1/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0100</pubDate>
+      <guid>https://damlakonur.github.io/experience/job-1/</guid>
+      <description>&lt;h3 id=&#34;undergraduate-research-fellow&#34;&gt;Undergraduate Research Fellow&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Artificial Intelligence and Intelligent Systems (AI2S) Laboratory&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Istanbul Technical University, Istanbul, Turkey&lt;/em&gt;&lt;br&gt;&#xA;&lt;strong&gt;September 2020 – July 2021&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I worked as an undergraduate research fellow funded by the Scientific and Technological Research Council of Turkey (TÜBİTAK).&lt;/p&gt;&#xA;&lt;p&gt;My research focused on:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developing and improving vision-based lane detection algorithms using &lt;strong&gt;Python&lt;/strong&gt;, &lt;strong&gt;OpenCV&lt;/strong&gt;, and classical computer vision techniques.&lt;/li&gt;&#xA;&lt;li&gt;Implementing and testing various controller structures for &lt;strong&gt;lateral and longitudinal control&lt;/strong&gt; of the autonomous vehicle.&lt;/li&gt;&#xA;&lt;li&gt;Working within the &lt;strong&gt;ROS (Robot Operating System)&lt;/strong&gt; framework for modular communication and simulation.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This experience helped me build strong foundations in robotics, control systems, and perception for autonomous driving.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
