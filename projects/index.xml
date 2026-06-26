@@ -6,8 +6,22 @@
     <description>Recent content in Projects on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Aug 2024 09:53:42 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0100</lastBuildDate>
     <atom:link href="https://damlakonur.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaussian Semantics: Lifting 2D Semantics to 3D</title>
+      <link>https://damlakonur.github.io/projects/gaussian-semantics/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0100</pubDate>
+      <guid>https://damlakonur.github.io/projects/gaussian-semantics/</guid>
+      <description>&lt;p&gt;As part of the &lt;strong&gt;Advanced Deep Learning for Computer Vision (ADL4CV)&lt;/strong&gt; course at TUM, I extended &lt;strong&gt;3D Gaussian Splatting (3DGS)&lt;/strong&gt; with joint RGB and semantic optimization to lift 2D semantic predictions into view-consistent 3D representations.&lt;/p&gt;&#xA;&lt;p&gt;Key contributions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Joint optimization of appearance, geometry, and per-Gaussian semantic labels&lt;/li&gt;&#xA;&lt;li&gt;View-consistent 3D semantics from temporally inconsistent 2D supervision&lt;/li&gt;&#xA;&lt;li&gt;Softmax-based probabilistic modeling and entropy regularization for complex scenes&lt;/li&gt;&#xA;&lt;li&gt;Evaluation on &lt;strong&gt;ScanNet++&lt;/strong&gt; with both ground-truth and noisy pseudo-labels&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Built with &lt;strong&gt;Python&lt;/strong&gt;, &lt;strong&gt;PyTorch&lt;/strong&gt;, and CUDA-accelerated Gaussian rasterization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MV-LAM: Multi-View Fusion for 3D-Complete Head Avatars</title>
+      <link>https://damlakonur.github.io/projects/mv-lam/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0100</pubDate>
+      <guid>https://damlakonur.github.io/projects/mv-lam/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Guided research&lt;/strong&gt; extending the &lt;strong&gt;LAM&lt;/strong&gt; (Large Avatar Model) framework to support &lt;strong&gt;two-view input&lt;/strong&gt; using the &lt;strong&gt;CAFCA&lt;/strong&gt; dataset for more complete and consistent 3D head avatar reconstruction.&lt;/p&gt;&#xA;&lt;p&gt;Key contributions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Finetuned LAM from single-view to &lt;strong&gt;multi-view fusion&lt;/strong&gt; with &lt;code&gt;num_source_views: 2&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Introduced a &lt;strong&gt;fusion MLP&lt;/strong&gt; to combine features from two reference images&lt;/li&gt;&#xA;&lt;li&gt;Integrated the &lt;strong&gt;CAFCA&lt;/strong&gt; dataset for training and inference&lt;/li&gt;&#xA;&lt;li&gt;Achieved improved &lt;strong&gt;3D completeness&lt;/strong&gt; and &lt;strong&gt;3D consistency&lt;/strong&gt; compared to single-view reconstruction&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Built with &lt;strong&gt;Python&lt;/strong&gt; and &lt;strong&gt;PyTorch&lt;/strong&gt;, building on the &lt;a href=&#34;https://github.com/aigc3d/LAM&#34;&gt;LAM&lt;/a&gt; architecture.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Generative Model of 3D Heads</title>
       <link>https://damlakonur.github.io/projects/gen-3d-heads/</link>

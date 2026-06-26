@@ -42,7 +42,7 @@
 <meta property="og:url" content="https://damlakonur.github.io/home/home/">
   <meta property="og:site_name" content="Serife Damla Konur">
   <meta property="og:title" content="Home">
-  <meta property="og:description" content="Hi, I&#39;m Damla! I&#39;m an M.Sc. student in Computer Science at Technical University of Munich.Previously, I completed a double major in Computer Engineering and Control and Automation Engineering at Istanbul Technical University.I&#39;m passionate about 3D Computer Vision, with a growing interest in areas such as, 3D Scene Representations, Dynamic Reconstruction, and 3D Head Avatars. See Resume Education 2018-2022 Istanbul Technical University Bachelor of Science (BSc), Computer Engineering 2016-2021 Istanbul Technical University Bachelor of Science (BSc), Control and Automation Engineering 2023-Present Technical University of Munich Master of Science (MSc), Computer Science Projects Generative Model of 3D Heads As part of the 3D Scanning &amp; Spatial Learning practical course at TUM, I worked on a generative framework for reconstructing 3D human heads from sparse-view inputs. The model uses an auto-decoder to learn a latent distribution over human heads, trained on the CAFCA dataset.">
+  <meta property="og:description" content="Hi, I&#39;m Damla! I&#39;m an M.Sc. student in Computer Science at Technical University of Munich.Previously, I completed a double major in Computer Engineering and Control and Automation Engineering at Istanbul Technical University.I&#39;m passionate about 3D Computer Vision, with a growing interest in areas such as, 3D Scene Representations, Dynamic Reconstruction, and 3D Head Avatars. See Resume Education 2018-2022 Istanbul Technical University Bachelor of Science (BSc), Computer Engineering 2016-2021 Istanbul Technical University Bachelor of Science (BSc), Control and Automation Engineering 2023-Present Technical University of Munich Master of Science (MSc), Computer Science Projects Gaussian Semantics: Lifting 2D Semantics to 3D As part of the Advanced Deep Learning for Computer Vision (ADL4CV) course at TUM, I extended 3D Gaussian Splatting (3DGS) with joint RGB and semantic optimization to lift 2D semantic predictions into view-consistent 3D representations.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="home">
@@ -159,13 +159,9 @@
         
 <section id="showcase" class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
   <div id="main-content" class="container">
-      
-
-
-        
 
     <div class="showcase-section row flex-column-reverse flex-md-row rad-fade-down rad-waiting rad-animate">
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+      <div class="col-12">
         <h1 class="display-1">
           Hi, I&#39;m Damla!
           <br />
@@ -184,47 +180,7 @@
         </a>
         
       </div>
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 profile-image">
-        
-
-
-
-
-
-
-
-
-
-
-        
-        
-
-
-
-    
-    
-
-
-    <picture class="">
-            
-            
-
-            <source srcset="/images/about/IMG_6707_hu_72cbb08fe97822bd.webp 1x, /images/about/IMG_6707_hu_d121c0811bdcbe8b.webp 2x" type="image/webp" />
-            <source srcset="/images/about/IMG_6707_hu_2c1040f81c82df1d.png 1x, /images/about/IMG_6707_hu_8bdb53bc9e0326a9.png 2x" type="image/png">
-
-        <img
-                width="463"
-                class="lozad img-responsive "
-                data-src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                alt=''
-                src="/images/about/IMG_6707_hu_2c1040f81c82df1d.png"
-        />
-    </picture>
-
-
-
-
-      </div>
+      
     <div class="col-12 inner-content">
       
 
@@ -265,12 +221,10 @@
 
     </div>
 
-
     <div class="row platform-links">
       <div class="col-12"></div>
     </div>
   </div>
-  
 </section>
 
 
@@ -337,6 +291,32 @@
 
       
 
+      
+      <div class="experience">
+        <a href="/experience/job-7/" class="experience__link">
+          <div class="experience__header">
+            
+            
+            <div class="experience__meta">
+              <div class="experience__date">June 2025 – Current</div>
+              <div class="experience__title">Computer Vision Engineer - Work Study</div>
+              <div class="experience__company">
+                ImFusion GmbH.
+                <span class="experience__location">Munich, Germany</span>
+              </div>
+            </div>
+            <div class="experience__description d-none d-print-block">
+              <h1>Work Study</h1>
+              Computer Vision Engineer - Work Study ImFusion GmbH
+Munich, Germany
+June 2025 – Current
+At ImFusion GmbH, I work on deploying and evaluating state-of-the-art computer vision models for medical imaging applications.
+Key responsibilities:
+Deploying and testing state-of-the-art computer vision models using Python and C++ Contributing to research projects on 2D and 3D point tracking Evaluating and extending recent models such as CoTracker3 
+            </div>
+          </div>
+        </a>
+      </div>
       
       <div class="experience">
         <a href="/experience/job-6/" class="experience__link">
@@ -587,6 +567,144 @@ Developing and improving vision-based lane detection algorithms using Python, Op
     >
       
       <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto even">
+        <h3>Gaussian Semantics: Lifting 2D Semantics to 3D</h3>
+        <div class="lead">
+          <p>As part of the <strong>Advanced Deep Learning for Computer Vision (ADL4CV)</strong> course at TUM, I extended <strong>3D Gaussian Splatting (3DGS)</strong> with joint RGB and semantic optimization to lift 2D semantic predictions into view-consistent 3D representations.</p>
+<p>Key contributions:</p>
+<ul>
+<li>Joint optimization of appearance, geometry, and per-Gaussian semantic labels</li>
+<li>View-consistent 3D semantics from temporally inconsistent 2D supervision</li>
+<li>Softmax-based probabilistic modeling and entropy regularization for complex scenes</li>
+<li>Evaluation on <strong>ScanNet++</strong> with both ground-truth and noisy pseudo-labels</li>
+</ul>
+<p>Built with <strong>Python</strong>, <strong>PyTorch</strong>, and CUDA-accelerated Gaussian rasterization.</p>
+
+        </div>
+        <a href="https://github.com/damlakonur/sem3dgs" class="btn btn-primary"
+          >View on GitHub<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+
+
+        
+
+
+
+
+
+
+
+
+
+
+        
+        
+
+
+
+    
+    
+
+
+    <picture class="">
+            
+            
+
+            <source srcset="/images/works/gaussian-semantics-method_hu_e78a3c7fff15b32d.webp 1x, /images/works/gaussian-semantics-method_hu_16f860dd7f2d1506.webp 2x" type="image/webp" />
+            <source srcset="/images/works/gaussian-semantics-method_hu_13b500fea19de5cc.png 1x, /images/works/gaussian-semantics-method_hu_bff0a173e9f16db7.png 2x" type="image/png">
+
+        <img
+                width="870"
+                class="lozad img-responsive picture-works even"
+                data-src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                alt=''
+                src="/images/works/gaussian-semantics-method_hu_13b500fea19de5cc.png"
+        />
+    </picture>
+
+
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down 
+      uneven-row"
+    >
+      
+      <div class="col-12 col-md-7 pl-md-0 text-right not-even">
+
+        
+
+
+
+
+
+
+
+
+
+
+        
+        
+
+
+
+    
+    
+
+
+    <picture class="">
+            
+            
+
+            <source srcset="/images/works/mv-lam-method_hu_c4b732fa5cdd9863.webp 1x, /images/works/mv-lam-method_hu_c5548fae62498a2d.webp 2x" type="image/webp" />
+            <source srcset="/images/works/mv-lam-method_hu_fd795f415b3c6edc.png 1x, /images/works/mv-lam-method_hu_99901917c1276d7c.png 2x" type="image/png">
+
+        <img
+                width="870"
+                class="lozad img-responsive picture-works odd"
+                data-src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                alt=''
+                src="/images/works/mv-lam-method_hu_fd795f415b3c6edc.png"
+        />
+    </picture>
+
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>MV-LAM: Multi-View Fusion for 3D-Complete Head Avatars</h3>
+        <div class="lead">
+          <p><strong>Guided research</strong> extending the <strong>LAM</strong> (Large Avatar Model) framework to support <strong>two-view input</strong> using the <strong>CAFCA</strong> dataset for more complete and consistent 3D head avatar reconstruction.</p>
+<p>Key contributions:</p>
+<ul>
+<li>Finetuned LAM from single-view to <strong>multi-view fusion</strong> with <code>num_source_views: 2</code></li>
+<li>Introduced a <strong>fusion MLP</strong> to combine features from two reference images</li>
+<li>Integrated the <strong>CAFCA</strong> dataset for training and inference</li>
+<li>Achieved improved <strong>3D completeness</strong> and <strong>3D consistency</strong> compared to single-view reconstruction</li>
+</ul>
+<p>Built with <strong>Python</strong> and <strong>PyTorch</strong>, building on the <a href="https://github.com/aigc3d/LAM">LAM</a> architecture.</p>
+
+        </div>
+        <a href="https://github.com/damlakonur/LAMpp/tree/feat-2shot" class="btn btn-primary"
+          >View on GitHub<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down 
+      flex-column-reverse flex-md-row even-row"
+    >
+      
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto even">
         <h3>Generative Model of 3D Heads</h3>
         <div class="lead">
           <p>As part of the <strong>3D Scanning &amp; Spatial Learning</strong> practical course at TUM, I worked on a generative framework for reconstructing 3D human heads from sparse-view inputs. The model uses an <strong>auto-decoder</strong> to learn a latent distribution over human heads, trained on the <strong>CAFCA dataset</strong>.</p>
@@ -796,6 +914,34 @@ Developing and improving vision-based lane detection algorithms using Python, Op
 
             
 
+            
+            <div class="experience row">
+                <div class="experience__header col-3 d-flex align-items-start">
+                    
+                    
+                    <div class="experience__meta">
+                        <div class="experience__date">June 2025 – Current</div>
+                        <div class="experience__title">Computer Vision Engineer - Work Study</div>
+                        <div class="experience__company">ImFusion GmbH. <span class="experience__location">
+                                Munich, Germany</span></div>
+                    </div>
+                </div>
+                <div class="experience__description d-print-block col-9">
+                    <h1>Work Study</h1>
+                    <h3 id="computer-vision-engineer---work-study">Computer Vision Engineer - Work Study</h3>
+<p><strong>ImFusion GmbH</strong><br>
+<em>Munich, Germany</em><br>
+<strong>June 2025 – Current</strong></p>
+<p>At ImFusion GmbH, I work on deploying and evaluating state-of-the-art computer vision models for medical imaging applications.</p>
+<p>Key responsibilities:</p>
+<ul>
+<li>Deploying and testing state-of-the-art <strong>computer vision models</strong> using <strong>Python</strong> and <strong>C++</strong></li>
+<li>Contributing to research projects on <strong>2D and 3D point tracking</strong></li>
+<li>Evaluating and extending recent models such as <strong>CoTracker3</strong></li>
+</ul>
+
+                </div>
+            </div>
             
             <div class="experience row">
                 <div class="experience__header col-3 d-flex align-items-start">
