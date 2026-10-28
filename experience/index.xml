@@ -38,20 +38,6 @@
     </item>
     <item>
       <title>Internship</title>
-      <link>https://damlakonur.github.io/experience/job-3/</link>
-      <pubDate>Sun, 01 Dec 2024 00:00:00 +0100</pubDate>
-      <guid>https://damlakonur.github.io/experience/job-3/</guid>
-      <description>&lt;h3 id=&#34;data-scientist&#34;&gt;Data Scientist&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Reengen&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Istanbul, Turkey&lt;/em&gt;&lt;br&gt;&#xA;&lt;strong&gt;May 2022 – July 2022&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;During my internship at Reengen, an energy analytics company, I worked on processing and analyzing large-scale electrical energy consumption data.&lt;/p&gt;&#xA;&lt;p&gt;Key contributions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Performed &lt;strong&gt;data preprocessing&lt;/strong&gt; and &lt;strong&gt;feature engineering&lt;/strong&gt; on smart meter time-series data.&lt;/li&gt;&#xA;&lt;li&gt;Applied statistical methods and &lt;strong&gt;machine learning models&lt;/strong&gt; for &lt;strong&gt;time series forecasting&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Contributed to internal tools for detecting anomalies and optimizing energy usage patterns.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Internship</title>
-      <link>https://damlakonur.github.io/experience/job-2/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 +0100</pubDate>
-      <guid>https://damlakonur.github.io/experience/job-2/</guid>
-      <description>&lt;h3 id=&#34;embedded-software-developer&#34;&gt;Embedded Software Developer&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;TÜBİTAK SAGE&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Ankara, Turkey&lt;/em&gt;&lt;br&gt;&#xA;&lt;strong&gt;July 2021 – September 2021&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;As an embedded software intern at TÜBİTAK SAGE, I contributed to the development of internal tools and communication modules for defense systems.&lt;/p&gt;&#xA;&lt;p&gt;Key contributions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed desktop tools using &lt;strong&gt;C++&lt;/strong&gt; and the &lt;strong&gt;Qt&lt;/strong&gt; framework.&lt;/li&gt;&#xA;&lt;li&gt;Implemented and tested &lt;strong&gt;custom file transfer protocols&lt;/strong&gt; between systems.&lt;/li&gt;&#xA;&lt;li&gt;Gained hands-on experience in low-level software development and communication between embedded systems.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Internship</title>
       <link>https://damlakonur.github.io/experience/job-1/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0100</pubDate>
       <guid>https://damlakonur.github.io/experience/job-1/</guid>
