@@ -24,3 +24,17 @@
 .swamp-controls.swamp-locked .swamp-shrek{opacity:1;visibility:visible;transform:translate(-50%,0)}
 #swamp-toggle:disabled{cursor:wait;opacity:.85}
 #swamp-toggle:disabled:hover{background:#769b3233}
+
+/* Ogre ears and an onion pointer appear only inside the swamp. */
+.swamp-mode .section-heading{padding-top:20px}
+.swamp-mode .section-heading h2{position:relative;isolation:isolate}
+.swamp-mode .section-heading h2::before,.swamp-mode .section-heading h2::after{content:"";position:absolute;top:-19px;width:30px;height:30px;background:url('../img/ogre-ear.svg') center/contain no-repeat;z-index:-1;pointer-events:none}
+.swamp-mode .section-heading h2::before{left:-18px;transform:rotate(-12deg)}
+.swamp-mode .section-heading h2::after{right:-18px;transform:scaleX(-1) rotate(-12deg)}
+@media(hover:hover) and (pointer:fine){
+  .swamp-mode body{cursor:url('../img/onion-cursor.svg') 16 8,auto}
+  .swamp-mode a,.swamp-mode button{cursor:url('../img/onion-cursor.svg') 16 8,pointer}
+  .swamp-mode button:disabled{cursor:wait}
+}
+@media print{.swamp-mode .section-heading h2::before,.swamp-mode .section-heading h2::after{display:none}}
+.swamp-mode .about h1{color:#4f7d24}
