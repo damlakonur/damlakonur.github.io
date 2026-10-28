@@ -41,3 +41,7 @@
 
 .swamp-shrek{display:block;width:100%;height:100%;object-fit:cover}
 .swamp-locked .swamp-shrek{transform:scale(1.65);transform-origin:center}
+
+.project-animation{margin:28px 0 32px}.project-animation img{display:block;width:100%;height:auto}.project-animation figcaption{margin-top:10px;font-size:14px;line-height:1.6;color:var(--muted);text-align:center}
+
+.project-animation img{margin-inline:auto}.animation-title{font:400 23px/1.4 Arial,Helvetica,sans-serif;margin:0 0 18px}
