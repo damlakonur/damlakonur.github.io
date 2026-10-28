@@ -5,6 +5,25 @@
   const labels = [...document.querySelectorAll('[data-swamp-text]')].map(element => ({element, original: element.textContent}));
   const preview = document.querySelector('.swamp-shrek');
   const controls = document.querySelector('.swamp-controls');
+  // Warm the same URLs used by the preview so first interaction can use the browser cache.
+  const gifCache = new Map();
+  function preloadGifs() {
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    for (const id of ['LR5GeZFCwDRcpG20PR', '10Ug6rDDuG3YoU', '20i4HfuCNE4g']) {
+      for (const file of reducedMotion ? ['giphy_s.gif'] : ['giphy.gif', 'giphy_s.gif']) {
+        const src = `https://media.giphy.com/media/${id}/${file}`;
+        if (gifCache.has(src)) continue;
+        const image = new Image();
+        image.referrerPolicy = 'no-referrer';
+        image.decoding = 'async';
+        image.fetchPriority = 'low';
+        gifCache.set(src, image);
+        image.src = src;
+      }
+    }
+  }
+  if (document.readyState === 'complete') preloadGifs();
+  else window.addEventListener('load', preloadGifs, {once: true});
   let previewActive = false;
   let enabled = false;
   let lockedUntil = 0;
